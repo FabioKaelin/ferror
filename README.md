@@ -13,7 +13,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/fabiokaelin/guessthenumber/pkg/ferrors"
+	"github.com/fabiokaelin/ferror"
 )
 
 func main() {
