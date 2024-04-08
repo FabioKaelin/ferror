@@ -78,7 +78,7 @@ func (e *errorString) SetInternal(internal string) {
 
 // New returns a new FError
 func New(text string) FError {
-	return &errorString{msg: text, layer: "db"}
+	return &errorString{msg: text}
 }
 
 // FromError returns a FError from a normal error
