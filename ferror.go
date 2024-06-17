@@ -1,4 +1,4 @@
-package ferrors
+package ferror
 
 import "fmt"
 
