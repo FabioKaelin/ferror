@@ -38,6 +38,6 @@ func retrunNormalError() (string, error) {
 ```
 
 ```log
-{Error: 'this is a normal error', Layer: 'db', UserMsg: '', Kind: '', Internal: ''}
+{Error: 'this is a normal error', Layer: '', UserMsg: '', Kind: '', Internal: ''}
 {Error: 'this is a ferror', Layer: 'db', UserMsg: 'Unable to persist the data', Kind: 'db connection', Internal: 'db connection closed unexpectedly'}
 ```

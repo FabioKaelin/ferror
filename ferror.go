@@ -41,8 +41,11 @@ func (e *errorString) Layer() string {
 	return e.layer
 }
 
-// UserMsg returns the message to be shown to the user
+// UserMsg returns the message to be shown to the user or the error message from the origin if no user message is set
 func (e *errorString) UserMsg() string {
+	if e.userMsg == "" {
+		return e.msg
+	}
 	return e.userMsg
 }
 
